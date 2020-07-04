@@ -1,0 +1,275 @@
+h1
+{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+#news {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+  }
+  
+  #news td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 10px;
+    max-width: 280;
+  }
+
+  #news th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 10px;
+    max-width: 280;
+  }
+  
+  #news tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #news tr:hover {background-color: #ddd;}
+  
+  #news th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center; 
+    max-width: 280px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+
+  /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.header a.zaman {
+  position: absolute ;
+  font-size: 15px;
+  font-weight: bold;
+  left: 850px;
+}
+
+.header a.zaman2 {
+  position: absolute ;
+  font-size: 15px;
+  font-weight: bold;
+  left: 970px;
+}
+
+
+
+#mynet_button {
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+
+#haberturk_button {
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#cnnturk_button {
+  border-radius: 8px;
+  background-color:blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#sabah_button {
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#ahaber_button {
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#ntv_button {
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#bbc_button {
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#bir_saat{
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#bir_saat:hover{
+  background: slateblue!important;
+  color: black!important;
+}
+
+#bir_gun{
+  border-radius: 8px;
+  background-color: blueviolet; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#bir_gun:hover{
+  background: slateblue!important;
+  color: black!important;
+}
+
+
+
+#bbc_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+#mynet_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+#haberturk_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+#cnnturk_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+#sabah_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+#ahaber_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+#ntv_button:hover {
+  background: slateblue!important;
+  color: black!important;
+}
+
+
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+

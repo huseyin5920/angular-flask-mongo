@@ -1,0 +1,40 @@
+<div class="header">
+    
+    <a href="" class="logo">HABERLER</a>
+   
+    <button (click)="goToPage('Mynet')" id="mynet_button">MYNET</button>
+    <button (click)="goToPageHaberturk('Haberturk')" id="haberturk_button">HABERTURK</button>
+    <button (click)="goToPageCnnturk('Cnnturk')" id="cnnturk_button">CNNTURK</button>
+    <button (click)="goToPageSabah('Sabah')" id="sabah_button">SABAH</button>
+    <button (click)="goToPageAhaber('Ahaber')" id="ahaber_button">AHABER</button>
+    <button (click)="goToPageNtv('Ntv')" id="ntv_button">NTV</button>
+    <button (click)="goToPageBbc('Bbc')" id="bbc_button">BBC</button>
+    
+
+    
+</div> 
+  <hr>
+
+<!-- <button (click)="readData()">Click here to fetch data from Flask</button>
+<hr> -->
+
+<table id="news">
+        <tr>
+            <th *ngFor="let col of headers">
+                {{col}}
+            </th>
+        </tr>
+    
+        <tr *ngFor="let new of news">
+            <td *ngFor="let col of index" id="tablo_data">
+               {{new[col]}}
+                
+            </td>  
+
+        </tr>   
+
+        
+</table>
+
+
+<!--<a [routerLink]="new.link">{{new[col]}}</a>-->
